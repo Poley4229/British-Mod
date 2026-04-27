@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 1,
+	"id": "shake-mod",
+	"version": "${version}",
+	"name": "Shake Mod",
+	"description": "Shake go brrrrrrrrrrrrrrrrrrr",
+	"authors": [
+		"Poley"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/shake-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.poley.shake.ShakeMod"
+		],
+		"client": [
+			"net.poley.shake.ShakeModClient"
+		],
+		"server": [
+			"net.poley.shake.ShakeModServer"
+		],
+		"fabric-datagen": [
+			"net.poley.shake.ShakeModDataGenerator"
+		]
+	},
+	"mixins": [
+		"shake-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"particle": [
+			"Shake-Mod:britishness_particle"
+		]
+	}
+}

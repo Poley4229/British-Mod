@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "shake-mod:item/dorkshire_tea_3d",
+		"particle": "shake-mod:item/dorkshire_tea_3d"
+	},
+	"elements": [
+		{
+			"from": [2, 7, 2],
+			"to": [12, 12, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 14]},
+			"faces": {
+				"north": {"uv": [4.125, 3.76563, 7.6875, 5.85938], "texture": "#0"},
+				"east": {"uv": [14.29688, 1.15625, 10.23438, 3.10938], "texture": "#0"},
+				"south": {"uv": [13.67188, 3.82813, 9.65625, 5.125], "texture": "#0"},
+				"west": {"uv": [4.9375, 1.53125, 8.48438, 3.26563], "texture": "#0"},
+				"up": {"uv": [10.84375, 16, 0.78125, 10.26563], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [6.125, 6.875, 2, 9.125], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}
